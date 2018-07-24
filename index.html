@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Navia Assignment</title>
+
+        <!-- Bootstrap -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	    <link rel="stylesheet" href="assets/css/font-awesome.css">
+	    <link rel="stylesheet" href="assets/css/animate.css">
+	    <link href="assets/css/style.css" rel="stylesheet" />		    
+    
+    </head>
+    <body>
+
+        <div class="example3">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">                
+                        <a class="navbar-brand" href="#"><img src="assets/img/logo1.png" alt="Navia">
+                        </a>
+                    </div>              
+                </div>           
+            </nav>
+        </div>
+
+
+        <div class="container">
+
+            <div class="img_main">
+                <img src="assets/img/feedback logo.png" />
+            </div>
+
+            <div class="heading_msg">
+                <h3>Please help us serve you better by telling us about your experience so far. We appreciate your business and want to make sure we meet your expectations.</h3>
+            </div>
+        
+            <!-- Trigger the modal with a button -->
+        
+            <div class="row text-center give_feedback">
+                <button type="button" class="btn btn-default" id="give_feedback" data-toggle="modal" data-target="#myModal">Give Feedback</button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade " id="myModal" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Feedback</h4>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="row">
+                            <div class="col-md-6">
+                              <input type="text" class="form-control" placeholder="Please enter your name">
+                            </div>
+                            <div class="col-md-6">
+                              <input type="text" class="form-control" placeholder="Please enter your email address">
+                            </div>
+                          </div>
+                          <div class="row" style="margin-top:2%;">
+                            <div class="col-md-6">
+                              <input type="text" class="form-control" placeholder="Please enter your contact number(optional)">
+                            </div>
+                            <div class="col-md-6">
+                              <input type="text" class="form-control" placeholder="Please enter the doctor you visited">
+                            </div>
+                          </div>
+                          <div class="row" style="margin-top:2%;">
+                            <div class="col-md-6">
+                              <h4>How would you rate your experience?</h4>
+                              <div class="row">
+                                <div class="rating">
+                                  <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Excellent">5 stars</label>
+                                  <input type="radio" id="star9" name="rating" value="9" /><label for="star9" title="Very good">4 stars</label>
+                                  <input type="radio" id="star8" name="rating" value="8" /><label for="star8" title="Good">3 stars</label>
+                                  <input type="radio" id="star7" name="rating" value="7" /><label for="star7" title="Average">2 stars</label>
+                                  <input type="radio" id="star6" name="rating" value="6" /><label for="star6" title="Not Satisfactory">1 star</label>
+                                  
+                                  
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                              <input type="text" class="form-control" placeholder="Any comments?(optional)">
+                            </div>
+                          </div>
+                          <div class="row text-center give_feedback">
+                                <a href="assets/pages/submit.html"><button type="button" class="btn btn-default" id="give_feedback">Submit</button></a>
+                            </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                
+                </div>
+            </div>
+
+        </div>
+
+
+    
+
+
+
+
+
+
+        <script src="assets/js/jquery.js"></script>  
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.easing.min.js"></script> 
+        <script src="assets/js/jquery.isotope.min.js"></script> 
+        <script src="assets/js/functions.js"></script>
+
+
+
+        
+    </body>
+  </html>

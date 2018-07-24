@@ -7,12 +7,181 @@
 
 
 body {
+    background-color: #F7F9F9;
 	font-family:'Open Sans', Arial, sans-serif;
+
 	font-size:14px;
 	font-weight:300;
-	line-height:1.6em;
-	color:#fff;
-	background-color:#fff;
+	
+	
 	overflow-x:hidden;
 }
+
+/*===========================
+  Header
+============================ */
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.example3 .navbar-brand {
+  height: 80px;
+}
+
+.example3 .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.example3 .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+/*===========================
+  Header
+============================ */
+
+.heading h1{
+    color: #283891;
+}
+
+
+
+.give_feedback .btn-default {
+    color: #333;
+    background: #ff7429;
+    border-color: #ccc;
+    border-radius: 0px;
+    padding: 12px 60px;
+    font-size: 20px;
+    margin: 30px;
+    color: #fff;
+    font-weight: inherit;
+    text-align: center;
+}
+
+
+.give_feedback .btn-default {
+    color: #333;
+    background: #ff7429;
+    border-color: #ccc;
+    border-radius: 0px;
+    padding: 12px 60px;
+    font-size: 20px;
+    margin: 30px;
+    color: #fff;
+    font-weight: inherit;
+    text-align: center;
+}
+
+.modal-dialog {
+    width: 70% !important;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.modal-content {
+    margin-top: 5%;
+    border-radius: 5px;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+.img_main img {
+    width: 15%;
+}
+
+.img_main {
+    text-align: center;
+}
+
+
+.heading_msg h3 {
+    padding: 16px !important;
+    font-size: 16px;
+    margin: 10px 40px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 22px;
+}
+
+
+
+.modal-body {
+    padding: 45px;
+    padding-bottom: 15px;
+}
+
+
+.rating {
+      float:left;
+      margin-left: 3%;
+    }
+
+    /* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+      follow these rules. Every browser that supports :checked also supports :not(), so
+      it doesn’t make the test unnecessarily selective */
+    .rating:not(:checked) > input {
+        position:absolute;
+        top:-9999px;
+        clip:rect(0,0,0,0);
+    }
+
+    .rating:not(:checked) > label {
+        float:right;
+        width:1em;
+        /* padding:0 .1em; */
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:300%;
+        /* line-height:1.2; */
+        color:#ddd;
+    }
+
+    .rating:not(:checked) > label:before {
+        content: '★ ';
+    }
+
+    .rating > input:checked ~ label {
+        color: #ff7429;
+        
+    }
+
+    .rating:not(:checked) > label:hover,
+    .rating:not(:checked) > label:hover ~ label {
+        color: #ff7429;
+        
+    }
+
+    .rating > input:checked + label:hover,
+    .rating > input:checked + label:hover ~ label,
+    .rating > input:checked ~ label:hover,
+    .rating > input:checked ~ label:hover ~ label,
+    .rating > label:hover ~ input:checked ~ label {
+        color: #ff7429;
+        
+    }
+
+    .rating > label:active {
+        position:relative;
+        top:2px;
+        left:2px;
+    }
+
+@media only screen and (max-width: 600px) {
+    input{
+        margin-top: 2%;
+    }
+}
+
+
 
